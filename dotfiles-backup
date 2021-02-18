@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+BIN_DIR=$HOME/.bin
+DOTFILES_DIR=$HOME/Dotfiles
+
+cp -r $BIN_DIR/* $DOTFILES_DIR/bin
